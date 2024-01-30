@@ -1,6 +1,8 @@
+html{
+  font-size: 20px;
+}
 body{
   font-family: "Arial","Meiryo",sans-serif;
-  font-size: 20px;
   text-align: center;
 }
 .h1_font{
