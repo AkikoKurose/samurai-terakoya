@@ -180,3 +180,216 @@ h3{
  .product-photo{
   width: 100%;
  }
+
+ /* product説明文の枠 */
+ .product-explain{
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 280px;
+  margin: 0 40px 0 40px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
+ }
+
+ /* 英語の見出し */
+ .product-explain > span{
+  color: #2710d5;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+ }
+
+ /* 見出し */
+ .product-explain > h3 {
+  font-size: 20px;
+  margin: 5px 0 5px 0;
+ }
+
+ /* 説明文 */
+.product-explain > p {
+  font-size: 14px;
+  margin: 0;
+}
+
+ /* もっとみるボタン */
+ #product-more{
+  margin: 0 auto -42px auto;
+ }
+
+ /* ==ABOUT US== */
+ /* セクション全体 */
+ #aboutus{
+  margin: 80px auto 80px auto;
+ }
+
+ /* ３つの組織文化と画像を入れる枠 */
+ #aboutus > div {
+  display: flex;
+ }
+
+ .culture-img{
+  width: 100%;
+  align-self: flex-start;
+ }
+
+ .culture-img2{
+  margin-top: 50px;
+  width: 100%;
+ }
+
+ .culture-table{
+  margin-right: 50px;
+ }
+
+ .culture-num{
+  font-size: 80px;
+  color: #2710d5;
+  margin: 0 20px 0 0;
+ }
+
+ .culture-en{
+  color: #2710d5;
+  font-weight: bold;
+  font-size: 24px;
+  display: block;
+ }
+
+ .culture-jp{
+  font-size: 28px;
+  font-weight: bold;
+ }
+
+ .culture-description{
+  margin: 0;
+ }
+
+ /* ==VISION== */
+ /* セクション全体 */
+ #vision{
+  margin: 80px auto 80px auto;
+ }
+
+ #vision > div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ }
+
+ .vision-box{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  position: relative;
+ }
+
+ .vision-box > img{
+  width: 100%;
+  /* height: top; 間違い*/
+  height: auto;
+  position: absolute;
+  /* 次の２つは漏れていた */
+  top: 0;
+  left: 0;
+  z-index: 30;
+ }
+
+ .vision-box > span{
+ position: absolute;
+ /* ２つ漏れ */
+ top: 0;
+ left: 0;
+ z-index: 31;
+ margin-right: 20px;
+ }
+
+ .vision-box > span > h4{
+  color: #2710d5;
+  /* 次は間違い */
+  /* font-size::first-letter 40px 19px; */
+  font-size: 19px;
+  /* 間違い？　margin-top: 80px; */
+  margin: 80px 0 0 0;
+}
+ 
+ /* 漏れ */
+ .vision-box > span > h4::first-letter{
+  font-size: 40px;
+ }
+ 
+ .vision-box > span > h5{
+  font-size: 20px;
+  /* 間違い　margin: 0; */
+  margin: 0 0 0 0 ;
+ }
+
+ .vision-box > span > p{
+  /* 間違い？margin-top: 10px; */
+  margin: 10px 0 0 0;
+ }
+
+ /* 会社概要 */
+ #company{
+  margin: 80px auto;
+ }
+
+ #company-table{
+  width: 100%;
+ }
+
+ .tableheader{
+  text-align: left;
+  padding: 20px;
+  border-bottom-color: #2710d5;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  width: 100px;
+ }
+
+ .tableheader-first{
+  text-align: left;
+  padding: 20px;
+  border-bottom-color: #2710d5;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  width: 100px;
+  border-top-color: #2710d5;
+  border-top-width: 1px;
+  border-top-style: solid;
+ }
+
+ .cell{
+  padding: 30px;
+  border-bottom-color: #ececec;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+ }
+
+ .cell-first{
+  padding: 30px;
+  border-bottom-color: #ececec;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top-color: #ececec;
+  border-top-width: 1px;
+  border-top-style: solid;
+ }
+
+ #company > iframe{
+  width: 100%;
+  height: 368px;
+  margin-top: 40px;
+ }
+
+ /* コンタクト */
+#contact{
+  margin: 80px auto 80px auto;
+}
+
+#contact > form > div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 0 30px 0;
+}
