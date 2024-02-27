@@ -8,6 +8,10 @@ p {
   font-size: 15px;
 }
 
+#main-visual > img{
+  width: 100%;
+}
+
 /*================
 PC用のスタイル 
 =================*/
@@ -54,13 +58,14 @@ PC用のスタイル
   #nav-pc>a:active {
     color: #0d0d0d;
   }
-/* PC画面の場合スマホナビを非表示へ */
-#menu-sp{
+
+  /* PC画面の場合スマホナビを非表示へ */
+  #menu-sp{
   display: none;
-}
-#nav-sp{
+  }
+  #nav-sp{
   display: none;
-}
+  }
 }
 
 /* ==================
