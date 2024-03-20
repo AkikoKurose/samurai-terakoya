@@ -4,7 +4,7 @@ const holidays = ['正月','成人の日','建国記念日','天皇誕生日','�
 // iをループのインデックスとして使用し、holidays.lengthを終了条件として設定
 // 各ループで holidays[i]を表示
 
-for (let i = 0; i <=holidays.length; i++){
+for (let i = 0; i <holidays.length; i++){
   console.log(holidays[i]);
 }
 
