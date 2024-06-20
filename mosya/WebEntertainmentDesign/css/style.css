@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/* PC、スマホ共通スタイル */
+html {
+  font-size: 100%;
+  background-color: #f0f0f0;
+}
+body {
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  padding: 0px;
+  margin: 0 auto 0 auto; 
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+li {
+  list-style: none;
+}
+.logo {
+  width: 100px;
+  padding-left: 10px;
+}
+p {
+  font-size: 15px;
+}
+/* ==========================================
+PC用スタイル
+===========================================*/
+/* 横幅設定 */
+body {
+  margin: 0 auto 0 auto;
+}
+
+/* ヘッダー */
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+/* ナビゲーションのレイアウト */
+.header-in {
+  display:flex;
+  justify-content: space-between;
+  height: 100%;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 25px;
+}
+li {
+  padding: 0 10px;
+}
+
+/* ナビゲーションのリンク装飾 */
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+li > a {
+  margin-left: 20px;
+}
+
+/* お問い合わせ */
+.contact {
+  display: flex;
+  width: 150px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #000;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+/* メインビジュアル */
+#main-visual img{
+  width: 100%;
+  height: calc(100vh - 70px);
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: center middle;
+}
+
+/* NEWS */
+.news_title {
+ display:inline-block;
+ margin: 100px auto auto 10%; 
+}
+.en {
+  font-size: 40px;
+  font-style: normal;
+  letter-spacing: 10px; 
+  font-weight: lighter;
+}
+
+.ja {
+  border-bottom-style: solid;
+  border-width: 1px;
+  padding-bottom: 20px;
+}
+.news-all {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 10% 5px 10%;
+  
+}
+.news-each {
+  width: calc(100% / 3);
+}
+.category {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  width: 50px;
+  text-align: center;
+}
+.news-each-title {
+  display: flex;
+}
