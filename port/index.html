@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>ポートフォリオ案</title>
+  <meta name="description" content="テキスト">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header id="header">
+    <div class="inner wrap">
+      <!--ロゴ -->
+      <h1 class="logo">
+        <a href=index.html"><img src="img/logo.svg" alt="トップページに戻る"></a>
+      </h1>  
+      <!-- PC用ナビ -->
+      <nav>
+        <ul>        
+          <li><a href="index.html#news">WORKS</a></li>
+          <li><a href="index.html#about">CONCEPT</a></li>
+          <li><a href="index.html#business">SERVICE</a></li>
+          <li><a href="index.html#company">ABOUT</a></li>
+        </ul>
+      </nav>
+    </div>
+    <a class="contact" href="#footer">お問い合わせ</a>
+  </header>
+
+  <main>
+    <!-- メインビジュアル -->
+    <div id="main-visual">
+      <img src="img/mainvisual.jpg" alt="">
+    </div>
+
+    <!-- ニュース -->
+
+    <section id="news" class="wrap">
+      <h2 class="title">
+        <span class="en">WORKS</span>
+        <span class="ja">実績</span>
+      </h2>
+
+      <ul class="list">
+        <li>
+          <div class="date-area">
+            <time datetime="2021-01-01">2021.01.01</time>
+            <span>NEWS</span>
+          </div>
+          <p>タイトルタイトルタイトルタイトル</p>
+        </li>
+        <li>
+          <div class="date-area">
+            <time datetime="2021-01-01">2021.01.01</time>
+            <span>NEWS</span>
+          </div>
+          <p>タイトルタイトルタイトルタイトル</p>
+        </li>
+        <li>
+          <div class="date-area">
+            <time datetime="2021-01-01">2021.01.01</time>
+            <span>NEWS</span>
+          </div>
+          <p>タイトルタイトルタイトルタイトル</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <div class="img">
+        <img src="img/about.jpg">
+      </div>
+      <div class="text">
+        <h2 class="title">
+          <span class="en">CONCEPT</span>
+          <span class="ja">方針</span>
+        </h2>
+        <p>
+          テキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキスト
+        </p>
+        <p>
+          テキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキスト
+        </p>
+        <p>
+          SITE DESIGN / UI/UX DESIGN / CODING -HTML,CSS,JavaScript / WordPress DESIGN        </p>
+      </div>
+    </section>
+
+    <section id="business" class="wrap">
+      <div class="text">
+        <h2 class="title">
+          <span class="en">SERVICE</span>
+          <span class="ja">サービス内容</span>
+        </h2>
+      </div>
+      <div class="business">
+        <div class="web_media">
+          <ul>
+            <li class="item">
+              <p class="text">-Web制作・マーケティング</p>
+              <img src="img/business1.jpg">
+            </li>
+            <li class="item">
+              <p class="text">-インターネットメディア事業</p>
+              <img src="img/business2.jpg">
+            </li>
+          </ul>
+        </div>
+        <div class="promo_sns">
+          <ul>
+            <li class="item">
+              <p class="text">-プロモーション企画・制作</p>
+              <img src="img/business3.jpg">
+            </li>
+            <li class="item">
+              <p class="text">-ソーシャル企画・運営</p>
+              <img src="img/business4.jpg">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="company" class="wrap">
+      <div class="text">
+        <h2 class="title">
+          <span class="en">ABOUT</span>
+          <span class="ja">事業概要</span>
+        </h2>
+
+        <dl class="info">
+          <dt>事業形態</dt>
+          <dd>個人事業</dd>
+          <dt>事業主</dt>
+          <dd>黒瀬　晶子</dd>
+          <dt>事業内容</dt>
+          <dd>ウェブサイト制作</dd>
+          <dt>Mail</dt>
+          <dd>XXX@XXX</dd>
+          <dt>略歴</dt>
+          <dd>あああ</dd>
+          <dd class="add">インターネットメディア事業</dd>
+          <dd class="add">プロモーション企画・制作</dd>
+          <dd class="add">ソーシャル企画・運営</dd>
+        </dl>
+      </div>
+      <div class="img">
+         <img src="img/company.jpg">
+      </div>
+    </section>  
+
+  <section id="contact">
+    <div class="wrap">
+        <div class="contact_form">
+            <form action="#">
+              <dl>
+                <dt><label for="name">Name:</label></dt>
+                <dd><input type="text" id="name" name="your-name"></dd>
+                <dt><label for="email">Mail:</label></dt>
+                <dd><input type="email" id="email" name="your-email"></dd>
+                <dt><label for="message">Message:</label></dt>
+                <dd><textarea id="message" name="your-message"></textarea></dd>
+              </dl>
+              <div class="button"><input type="submit" value="SEND"></div>
+            </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="wrap">
+      <p class="copyright">&copy; Web Entertainment Design Inc.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
