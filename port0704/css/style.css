@@ -93,15 +93,15 @@ header li > a:hover::after {
   transform: rotate(45deg);
   animation: moving 16s linear infinite;
 }
-.bird-type_2 {
+#main-visual .bird.-type_2 {
   animation-delay: 1s;
 }
-.bird-type_2:before,
-.bird-type_2:after {
+#main-visual .bird.-type_2:before,
+#main-visual .bird.-type_2:after {
   animation-delay: -2s;
 }
 
-.bird-type_3 {
+#main-visual .bird.-type_3 {
   animation-delay: 3s;
 }
 
